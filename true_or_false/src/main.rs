@@ -47,5 +47,8 @@ fn main() {
         result = first_element == second_element
     }
 
-    println!("{first_element} {comparation_type} {second_element} -> {result}")
+    println!(
+        "{} {} {} -> {}",
+        first_element, comparation_type, second_element, result
+    )
 }
